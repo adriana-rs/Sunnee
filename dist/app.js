@@ -8,14 +8,14 @@ const produzione_1 = require("./produzione");
 const prodotto1 = new prodotto_1.Prodotto(interface_1.Tipo.Costume, 101, interface_1.Taglia.M, 'Nero', interface_1.StatoProdotto.Disponibile);
 const prodotto2 = new prodotto_1.Prodotto(interface_1.Tipo.Cappello, 102, interface_1.Taglia.S, 'Blu', interface_1.StatoProdotto.Disponibile);
 const prodotto3 = new prodotto_1.Prodotto(interface_1.Tipo.Pareo, 103, interface_1.Taglia.L, 'Rosso', interface_1.StatoProdotto.Disponibile);
-console.log('Prodotto istanziato', prodotto1);
-console.log('Prodotto istanziato', prodotto2);
-console.log('Prodotto istanziato', prodotto3);
+console.log('Prodotto istanziato: ', prodotto1);
+console.log('Prodotto istanziato: ', prodotto2);
+console.log('Prodotto istanziato: ', prodotto3);
 // creo i clienti del brand
 const cliente1 = new cliente_1.Cliente('Mario', 'Rossi', 'mario.rossi@example.com', 'PayPal');
 const cliente2 = new cliente_1.Cliente('Anna', 'Verdi', 'anna.verdi@example.com', 'Carta di Credito');
-console.log('Cliente istanziato', cliente1);
-console.log('Cliente istanziato', cliente2);
+console.log('Cliente istanziato: ', cliente1);
+console.log('Cliente istanziato: ', cliente2);
 // Creo un processo di produzione
 const processoPrincipale = new produzione_1.ProcessoProduzione('Cucitura e Assemblaggio', 'Processo principale per costumi e parei.');
 console.log("\nProcesso di Produzione istanziato:", processoPrincipale);
