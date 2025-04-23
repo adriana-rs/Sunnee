@@ -29,9 +29,9 @@ const prodotto3 = new Prodotto(
   StatoProdotto.Disponibile
 )
 
-console.log('Prodotto istanziato', prodotto1);
-console.log('Prodotto istanziato', prodotto2);
-console.log('Prodotto istanziato', prodotto3);
+console.log('Prodotto istanziato: ', prodotto1);
+console.log('Prodotto istanziato: ', prodotto2);
+console.log('Prodotto istanziato: ', prodotto3);
 
 // creo i clienti del brand
 const cliente1 = new Cliente(
@@ -48,8 +48,8 @@ const cliente2 = new Cliente(
   'Carta di Credito'
 )
 
-console.log('Cliente istanziato', cliente1);
-console.log('Cliente istanziato', cliente2);
+console.log('Cliente istanziato: ', cliente1);
+console.log('Cliente istanziato: ', cliente2);
 
 // Creo un processo di produzione
 const processoPrincipale = new ProcessoProduzione(
