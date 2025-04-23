@@ -46,7 +46,8 @@ Nasce dalla volontà di sensibilizzare sull'inquinamento marino e sulla necessit
 - Inserimento dei prodotti nei processi produttivi
 - Gestione dei duplicati nei processi (con messaggi di warning)
 
-![Screenshot](./img/Screenshot%202025-04-23%20140334.png)
+![Screenshot](./img/Screenshot%202025-04-23%20140354.png)
+
 ---
 
 ## 🧪 Demo: Casi gestiti in `app.ts`
@@ -58,7 +59,8 @@ Nasce dalla volontà di sensibilizzare sull'inquinamento marino e sulla necessit
 - ❌ Tentativo di duplicazione nel processo → warning
 - ✅ Stato aggiornato correttamente dopo l’ordine
 
-![Screenshot](./img/Screenshot%202025-04-23%20140354.png)
+![Screenshot](./img/Screenshot%202025-04-23%20140334.png)
+
 ---
 
 ## 🚀 Come eseguire il progetto
