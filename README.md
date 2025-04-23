@@ -35,6 +35,8 @@ Nasce dalla volontà di sensibilizzare sull'inquinamento marino e sulla necessit
 
 ├── app.ts → Logica esecutiva e demo del progetto ├── interface.ts → Interfacce e enum principali ├── prodotto.ts → Classe Prodotto (gestione articoli beachwear) ├── cliente.ts → Classe Cliente (gestione ordini) ├── produzione.ts → Classe ProcessoProduzione (gestione produzione) ├── tsconfig.json → Configurazione TypeScript (se presente) └── README.md → Documentazione del progetto
 
+---
+
 ## ⚙️ Funzionalità
 
 - Creazione di prodotti con attributi (tipo, taglia, colore, stato)
@@ -43,6 +45,9 @@ Nasce dalla volontà di sensibilizzare sull'inquinamento marino e sulla necessit
 - Assegnazione dei prodotti ai clienti con aggiornamento stato
 - Inserimento dei prodotti nei processi produttivi
 - Gestione dei duplicati nei processi (con messaggi di warning)
+
+![Screenshot](./img/Screenshot%202025-04-23%20140334.png)
+---
 
 ## 🧪 Demo: Casi gestiti in `app.ts`
 
@@ -53,6 +58,7 @@ Nasce dalla volontà di sensibilizzare sull'inquinamento marino e sulla necessit
 - ❌ Tentativo di duplicazione nel processo → warning
 - ✅ Stato aggiornato correttamente dopo l’ordine
 
+![Screenshot](./img/Screenshot%202025-04-23%20140354.png)
 ---
 
 ## 🚀 Come eseguire il progetto
@@ -62,18 +68,23 @@ Nasce dalla volontà di sensibilizzare sull'inquinamento marino e sulla necessit
 
 ```bash
 npm install -g typescript
+```
 
 3. Compila il progetto
 
+```bash
 tsc
+```
 
 4. Esegui il file app.js generato:
 
+```bash
 node dist/app.js
-
----
+```
 
 Se preferisci, puoi usare anche ts-node per eseguire direttamente i file .ts.
+
+---
 
 ## 🤝 Contributi
 
@@ -82,13 +93,32 @@ Chiunque voglia contribuire con miglioramenti, refactoring o estensioni è il be
 
 Per contribuire:
 
-Fai un fork del repository
+1. Fai un fork del repository
+2. Crea un nuovo branch (git checkout -b feature/NomeFunzionalità)
+3. Fai il commit delle modifiche (git commit -m 'Aggiunta funzionalità')
+4. Fai push del branch (git push origin feature/NomeFunzionalità)
+5. Apri una pull request
 
-Crea un nuovo branch (git checkout -b feature/NomeFunzionalità)
+---
 
-Fai il commit delle modifiche (git commit -m 'Aggiunta funzionalità')
+## Autore
+Questo progetto è stato realizzato da [Adriana Russo](https://adriana-rs.github.io/)
 
-Fai push del branch (git push origin feature/NomeFunzionalità)
+Il progetto è stato deployato anche su [CodePen](https://codepen.io/adriana-rs/pen/MYYbEqp)
 
-Apri una pull request
+---
 
+## Contatti 
+[LinkedIn](https://www.linkedin.com/in/adriana-rs1805/)
+[Facebook](https://www.facebook.com/Tony.Adry)
+[Instagram](https://www.instagram.com/adrianars20/profilecard/?igsh=eW42cXphbTdseGRp)
+
+---
+
+Grazie per aver visitato il mio progetto! 😊
+
+---
+
+## About
+
+Progetto realizzato come test finale del corso di TypeScript presso Start2Impact.
