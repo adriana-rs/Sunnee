@@ -111,9 +111,10 @@ Il progetto è stato deployato anche su [CodePen](https://codepen.io/adriana-rs/
 ---
 
 ## Contatti 
-[LinkedIn](https://www.linkedin.com/in/adriana-rs1805/)
-[Facebook](https://www.facebook.com/Tony.Adry)
-[Instagram](https://www.instagram.com/adrianars20/profilecard/?igsh=eW42cXphbTdseGRp)
+
+- [LinkedIn](https://www.linkedin.com/in/adriana-rs1805/)
+- [Facebook](https://www.facebook.com/Tony.Adry)
+- [Instagram](https://www.instagram.com/adrianars20/profilecard/?igsh=eW42cXphbTdseGRp)
 
 ---
 
