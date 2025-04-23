@@ -71,6 +71,8 @@ tsc
 
 node dist/app.js
 
+---
+
 Se preferisci, puoi usare anche ts-node per eseguire direttamente i file .ts.
 
 ## 🤝 Contributi
